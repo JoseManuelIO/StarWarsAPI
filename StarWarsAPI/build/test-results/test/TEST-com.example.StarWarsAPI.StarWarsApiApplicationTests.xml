@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.StarWarsAPI.StarWarsApiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-27T16:17:41" hostname="LAPTOP-A31UTCNB" time="1.235">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.StarWarsAPI.StarWarsApiApplicationTests" time="1.235"/>
+  <system-out><![CDATA[18:17:38.483 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.StarWarsAPI.StarWarsApiApplicationTests]: StarWarsApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:17:38.674 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.StarWarsAPI.StarWarsApiApplication for test class com.example.StarWarsAPI.StarWarsApiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-07-27T18:17:39.333+02:00  INFO 22120 --- [StarWarsAPI] [    Test worker] c.e.S.StarWarsApiApplicationTests        : Starting StarWarsApiApplicationTests using Java 22.0.2 with PID 22120 (started by User in C:\Users\User\Desktop\Mercedes\StarWarsAPI)
+2024-07-27T18:17:39.335+02:00  INFO 22120 --- [StarWarsAPI] [    Test worker] c.e.S.StarWarsApiApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-07-27T18:17:41.248+02:00  INFO 22120 --- [StarWarsAPI] [    Test worker] c.e.S.StarWarsApiApplicationTests        : Started StarWarsApiApplicationTests in 2.329 seconds (process running for 3.876)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\User\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.18\417558ea01fe9f0e8a94af28b9469d281c4e3984\byte-buddy-agent-1.14.18.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

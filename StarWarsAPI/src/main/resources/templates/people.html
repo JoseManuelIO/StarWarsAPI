@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Star Wars People Viewer</title>
+
+</head>
+
+<body>
+
+<h1>Star Wars People Viewer</h1>
+
+<!-- Formulario de búsqueda -->
+<form action="#" method="get">
+    <input type="text" name="search" placeholder="Search by name" value="" />
+    <input type="submit" value="Search" />
+</form>
+
+<!-- Tabla para mostrar los datos -->
+<table border="1">
+    <thead>
+    <tr>
+            <th>Name</th>
+            <th>Created</th>
+
+        <th><a  th:href="@{/people(sort=name,order=asc,search=${search})}">Name (Asc)</a></th>-->
+        <th><a  th:href="@{/people(sort=name,order=desc,search=${search})}">Name (Desc)</a></th>-->
+        <th><a  th:href="@{/people(sort=created,order=asc,search=${search})}">Created (Asc)</a></th>-->
+        <th><a  th:href="@{/people(sort=created,order=desc,search=${search})}">Created (Desc)</a></th>-->
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="person : ${people}">
+        <td th:text="${person.name}"></td>
+        <td th:text="${person.created}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
